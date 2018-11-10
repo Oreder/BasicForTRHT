@@ -1,6 +1,6 @@
 ﻿namespace Operation
 {
-    public class Search
+    internal class Search
     {
         /// <summary>
         /// Method Binary searching data

@@ -16,7 +16,10 @@ namespace BND1D
             var engine = new AppliedOperation(machine.RePosition, machine.ReTemperature, machine.ReDivergence);
             double tmp = 15000.0;
 
-            Console.WriteLine("\nDivergence: {0}", engine.Interpolate(tmp));
+            Console.WriteLine("\nDivergence #1: {0}", engine.Interpolate(tmp));
+            Console.WriteLine("Divergence #2: {0}\n", engine.DirectInterpolate(tmp));
+
+            engine.ShowCoefs(0);
 
             engine = null;
             machine = null;

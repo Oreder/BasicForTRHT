@@ -2,7 +2,7 @@
 
 namespace Operation
 {
-    public class Root
+    internal class Root
     {
         /// <summary>
         /// Get the only root of equation: 

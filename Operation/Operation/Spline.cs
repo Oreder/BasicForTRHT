@@ -222,5 +222,15 @@ namespace Operation
 
             return new double[] { coefs[0][index], coefs[1][index], coefs[2][index], coefs[3][index] };
         }
+
+        public long SizeOfCoefs
+        {
+            get
+            {
+                return isValid ? (sourceX.LongLength - 1) : -1;
+            }
+        }
+
+        public double[][] GetCoefs() => coefs;
     }
 }
