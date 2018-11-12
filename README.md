@@ -7,3 +7,4 @@
 3. Filtering and applying direct and backtrack interpolation.
 4. Comparing combining-interpolation method to direct method.
 5. Test combining-interpolation (mixing method) with irregular 1D-network.
+6. Test combining-interpolation (mixing method) with regular 2D-network.
